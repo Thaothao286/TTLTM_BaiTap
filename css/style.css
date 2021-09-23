@@ -1,0 +1,146 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(../fonts/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url(../fonts/Oswald-Bold.ttf);
+  font-weight: bold;
+}
+
+ul {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.small-contact {
+	background: #2b2b2b;
+	color: #898989;
+	font-family: myFirstFont;
+	font-size: 13px;
+	display: block;
+	line-height: 40px;
+}
+
+.small-contact .left-contact i {
+	margin-right: 40px;
+}
+
+.small-contact .right-contact i {
+	margin:10px;
+	color: #898989
+}
+/*end-small-contact*/
+.nav-bar {
+	background: #ffffff;
+	width: 100%;
+	font-family: myFirstFont;
+	font-weight: bold;
+}
+
+.nav-bar .logo {
+	display: block;
+	font-family: myFirstFont;
+	font-weight: bold;
+	font-size: 39px;
+	color: #73b01f;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.nav-bar ul li {
+	list-style: none;
+
+	display: inline-block;
+	text-decoration: none;
+}
+
+.nav-bar .navbar-detail {
+	display: block;
+	font-size: 13px;
+	color: #222222;
+	padding: 25px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.nav-bar-menu > ul> li:last-child > a {
+	padding: 25px 0;
+}
+
+.nav-bar-menu > ul> li:last-child > a:first-child {
+	display: none;
+}
+
+.nav-bar-menu > ul> li:last-child > ul:nth-child(3) {
+	display: none;
+}
+
+.navbar-detail:hover {
+	color: #73b01f;
+}
+
+
+.nav-bar ul li {
+	position: relative;
+}
+
+.nav-bar ul li ul {
+	display: none;
+	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	top:100%;
+	left: 0;
+	width: 250px;
+}
+
+.nav-bar ul li:hover>  ul {
+	display: block;
+}
+
+.nav-bar ul li ul li {
+	position: relative;
+	display: block;
+}
+
+.nav-bar ul li ul li ul {
+	display: none;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 200px;
+}
+
+.nav-bar ul li ul a {
+	text-decoration: none;
+	color: #232323;
+	display: block;
+	padding: 10px 20px;
+	font-size: 13px;
+	background: #F4F4F4;
+}
+
+.nav-bar ul li ul > li:hover > a {
+	color: #ffffff;
+	background: #73B01F;
+}
+
+
+
+
+.background-image img {
+	width: 100%;
+}
